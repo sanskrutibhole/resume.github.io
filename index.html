@@ -400,7 +400,7 @@
                 <div class="col-lg-8">
                     <div class="contact-form text-center">
                         <div id="success"></div>
-                        <form method="POST" action="contact.php">
+                        <form type="POST" action="contact.php">
                             <div class="form-row">
                                 <div class="control-group col-sm-6">
                                     <input type="text" class="form-control p-4" id="name" name="name" placeholder="Your Name"
@@ -464,7 +464,7 @@
                 else {
                     $.ajax({
                     
-                    method:"post",
+                    type:"post",
                     url:'contact.php',
                     dataType:"json",
                     data: {name:name, email:email, subject:subject, message:message},

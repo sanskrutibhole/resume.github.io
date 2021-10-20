@@ -1,16 +1,4 @@
 <?php
- ob_start(); //turn on output buffering
-
- //...other code
-
-
-$debug = ob_get_clean();
-$response['debug'] = $debug; //comment this when live in production
-
-header('Content-type: application/json');
-
-echo json_encode($response);
-
   $name=$_POST['name'];
    $visitor_email =$_POST['email'];
    $visitor_subject =$_POST['subject'];
