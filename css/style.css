@@ -101,7 +101,7 @@ h1,h2,h3,h4,h5,h6,p{
 }
 
 
-/*===================== Hero section ======================*/
+
 
 .about-img{
  margin-left: -100px;
@@ -159,7 +159,7 @@ h1,h2,h3,h4,h5,h6,p{
 }
 
 
-/* =================== Queality ======================*/
+/* =================== Quality ======================*/
 .ex-me{
   margin-top: 35px;
 }
@@ -214,34 +214,6 @@ h1,h2,h3,h4,h5,h6,p{
 
 
 
-/* ====================== Testimonial ================*/
-.testimonial-carousel .text-center{
-  background-color: #eaecf0d0;
-  border-radius: 20px;
-  margin: 20px;
-
-}
-/* .testimonial-carousel .text-center h4{
-
-}
- */
-.testimonial-carousel .owl-dots {
-  margin-top: 25px;
-  text-align: center;
-}
-
-.testimonial-carousel .owl-dot {
-  display: inline-block;
-  margin: 0 5px;
-  width: 12px;
-  height: 12px;
-  border-radius: 10px;
-  background: #dddddd;
-}
-
-.testimonial-carousel .owl-dot.active {
-  background: #0BCEAF;
-}
 
 
 
